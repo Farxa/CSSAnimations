@@ -1,0 +1,32 @@
+img {
+    height: 100px;
+    width: 100px;
+    animation: spin linear 1s infinite;
+    color: blue;
+  }
+  
+
+  
+  @keyframes spin {
+    100% {
+      transform: rotate(0.5turn);
+    }
+  }
+
+
+
+
+  /* for the box: */
+  
+  .box {
+    width: 150px;
+    height: 150px;
+    background: red;
+    transition: background-color 2s;
+    margin: 50px;
+  }
+   
+  .box:hover {
+    background-color: green;
+  }
+  
